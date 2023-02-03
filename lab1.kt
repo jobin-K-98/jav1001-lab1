@@ -11,7 +11,7 @@ fun main() {
 
         //if the user want to convert from Celsius or Fahrenheit they are prompt to enter the unit they want to convert
         if(unit == "celsius" || unit == "fahrenheit"){
-            print("Enter the unit that you wish to convert (kelvin, fahrenheit, celsius) :")
+            print("Enter the unit that you wish to convert to (kelvin, fahrenheit, celsius) :")
             convertToUnit = readLine().toString()
         }
         var result = ""
